@@ -60,8 +60,8 @@ def create_chromedriver(ua=False):
 
 
 def some_long_calculation():
-    driver = create_chromedriver('kkk')
-    # driver = create_chromedriver()
+    # driver = create_chromedriver('kkk')
+    driver = create_chromedriver()
     print(driver.capabilities['version'])
 
     driver.get("https://www.yahoo.com/")
