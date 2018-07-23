@@ -1,2 +1,2 @@
-web: gunicorn err_test:some_long_calculation
+web: gunicorn err_test:test_app
 
