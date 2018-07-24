@@ -45,7 +45,7 @@ def create_chromedriver(ua=False):
         # ua_string = 'user-agent=' + ua
         # options.add_argument(ua_string)
         # mobile_emulation = {"deviceName": "Nexus 7"}
-        mobile_emulation =  {"deviceName": "Google Nexus 5"}
+        mobile_emulation =  {"deviceName": "Nexus 5"}
         # mobile_emulation =  {"deviceName": "LG Optimus One", "width": 213, "height": 320, "deviceScaleFactor": 1.5, "userAgent": "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; LG-MS690 Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", "touch": "true", "mobile": "true"}
         options.add_experimental_option("mobileEmulation", mobile_emulation)
 
