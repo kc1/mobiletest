@@ -49,11 +49,28 @@ def create_chromedriver(ua=False):
         # mobile_emulation =  {"deviceName": "LG Optimus One", "width": 213, "height": 320, "deviceScaleFactor": 1.5, "userAgent": "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; LG-MS690 Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", "touch": "true", "mobile": "true"}
         options.add_experimental_option("mobileEmulation", mobile_emulation)
 
+        # options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+
+        capabilities = options.to_capabilities()
+
+        # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=capabilities)
+
+        # from selenium import webdriver
+        # mobile_emulation = {"deviceName": "Nexus 5"}
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+        # driver = webdriver.Remote(executable_path=CHROMEDRIVER_PATH,command_executor='http://127.0.0.1:4444/wd/hub',
+        #                           desired_capabilities=options.to_capabilities())
 
 
+        # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,desired_capabilities=capabilities, options=options)
+    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
 
-    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,desired_capabilities=capabilities, options=options)
-    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
+
+    return webdriver.Remote(executable_path=CHROMEDRIVER_PATH, command_executor='http://127.0.0.1:4444/wd/hub',
+                          desired_capabilities=options.to_capabilities())
 
 
 
