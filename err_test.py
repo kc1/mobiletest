@@ -33,12 +33,16 @@ def create_chromedriver(ua=False):
         GOOGLE_CHROME_SHIM = os.getenv('$GOOGLE_CHROME_SHIM') or 'no path found'
         # options.binary_location = '/app/.apt/usr/bin/google-chrome-stable'
         options.binary_location = '/app/.apt/usr/bin/google-chrome'
+        options.binary_location = GOOGLE_CHROME_SHIM
 
-        options.add_argument("--start-maximized")
-        options.add_argument("--disable-infobars")
-        options.add_argument("--disable-extensions")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
+        print(GOOGLE_CHROME_SHIM)
+        print(GOOGLE_CHROME_SHIM)
+
+        # options.add_argument("--start-maximized")
+        # options.add_argument("--disable-infobars")
+        # options.add_argument("--disable-extensions")
+        # options.add_argument("--no-sandbox")
+        # options.add_argument("--disable-dev-shm-usage")
 
     if ua:
         # ua_string = '--user-agent=' + '"' + ua + '"'
