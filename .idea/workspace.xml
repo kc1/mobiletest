@@ -20,11 +20,11 @@
       <file leaf-file-name="err_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/err_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="360">
               <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+                <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,8 +59,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="685" />
-    <option name="y" value="295" />
+    <option name="x" value="1062" />
+    <option name="y" value="67" />
     <option name="width" value="960" />
     <option name="height" value="1160" />
   </component>
@@ -70,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,12 +82,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/err_test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -146,18 +146,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329927" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -182,11 +191,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/err_test.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="44" selection-start-line="21" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/err_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="44" selection-start-line="21" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/err_test.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="12" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>
@@ -204,7 +249,7 @@
           <caret line="57" column="84" selection-start-line="57" selection-start-column="84" selection-end-line="57" selection-end-column="84" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>
@@ -222,7 +267,7 @@
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>
@@ -240,7 +285,7 @@
           <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>
@@ -258,7 +303,7 @@
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>
@@ -279,11 +324,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/err_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="360">
           <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1532457132000" expanded="true" signature="2559:2996" ph="..." />
+            <marker date="1532551092000" expanded="true" signature="2559:2996" ph="..." />
           </folding>
         </state>
       </provider>

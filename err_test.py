@@ -66,11 +66,11 @@ def create_chromedriver(ua=False):
 
 
         # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,desired_capabilities=capabilities, options=options)
-    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
+    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
 
 
-    return webdriver.Remote(executable_path=CHROMEDRIVER_PATH, command_executor='http://127.0.0.1:4444/wd/hub',
-                          desired_capabilities=options.to_capabilities())
+    # return webdriver.Remote(executable_path=CHROMEDRIVER_PATH, command_executor='http://127.0.0.1:4444/wd/hub',
+    #                       desired_capabilities=options.to_capabilities())
 
 
 
