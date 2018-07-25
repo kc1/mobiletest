@@ -84,8 +84,8 @@ def create_chromedriver(ua=False):
 
 
 def some_long_calculation():
-    driver = create_chromedriver('test')
-    # driver = create_chromedriver()
+    # driver = create_chromedriver('test')
+    driver = create_chromedriver()
     print(driver.capabilities['version'])
     print(driver.capabilities['version'])
 
