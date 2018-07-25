@@ -39,6 +39,8 @@ def create_chromedriver(ua=False):
 
         print(GOOGLE_CHROME_SHIM)
         print(GOOGLE_CHROME_SHIM)
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
 
         # options.add_argument("--start-maximized")
         # options.add_argument("--disable-infobars")
@@ -57,8 +59,6 @@ def create_chromedriver(ua=False):
         options.add_experimental_option("mobileEmulation", mobile_emulation)
 
         # options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
 
         capabilities = options.to_capabilities()
 
