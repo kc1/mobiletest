@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dba41d7-8bb7-446d-9825-657e7227a041" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/err_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/err_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="9dba41d7-8bb7-446d-9825-657e7227a041" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="err_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/err_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="217">
+              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <marker date="1532554506000" expanded="true" signature="2758:3195" ph="..." />
@@ -355,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/err_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="217">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <marker date="1532554506000" expanded="true" signature="2758:3195" ph="..." />
