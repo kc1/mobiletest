@@ -81,6 +81,7 @@ def some_long_calculation():
     driver = create_chromedriver('test')
     # driver = create_chromedriver()
     print(driver.capabilities['version'])
+    print(driver.capabilities['version'])
 
     driver.get("https://www.yahoo.com/")
     # driver.get("https://www.yahoo.com/news/")
