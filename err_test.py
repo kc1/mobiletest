@@ -86,7 +86,7 @@ def some_long_calculation():
     # driver.find_element_by_id("yui_3_18_0_4_1519680410096_1347").click()
     # driver.find_element_by_id("yui_3_18_0_4_1519680410096_1347").click()
 
-    # print(1)
+    print(1)
     # yield "<br/>"
 
     # https: // www.yahoo.com / news /
