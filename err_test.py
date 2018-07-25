@@ -31,8 +31,9 @@ def create_chromedriver(ua=False):
         # CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
         CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
         GOOGLE_CHROME_SHIM = os.getenv('$GOOGLE_CHROME_SHIM') or 'no path found'
-        options.binary_location = '/app/.apt/usr/bin/google-chrome-stable'
+        # options.binary_location = '/app/.apt/usr/bin/google-chrome-stable'
         # options.binary_location = '/app/.apt/usr/bin/google-chrome'
+        options.binary_location = './app/.apt/opt/google/chrome'
         # options.binary_location = GOOGLE_CHROME_SHIM
 
         print(GOOGLE_CHROME_SHIM)
