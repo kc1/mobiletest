@@ -49,6 +49,7 @@ def create_chromedriver(ua=False):
         # options.add_argument("--disable-dev-shm-usage")
 
     if ua:
+        print('ua block33')
         # ua_string = '--user-agent=' + '"' + ua + '"'
         # ua_string = 'user-agent=' + ua
         # options.add_argument(ua_string)
