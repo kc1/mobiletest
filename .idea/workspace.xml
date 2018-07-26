@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dba41d7-8bb7-446d-9825-657e7227a041" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/err_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/err_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="9dba41d7-8bb7-446d-9825-657e7227a041" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +153,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
