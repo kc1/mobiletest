@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/err_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+              <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -173,8 +173,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297456" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38248175" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38248175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -450,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/err_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
