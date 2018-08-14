@@ -51,7 +51,7 @@ def create_chromedriver(ua=False):
 
 
 def some_long_calculation():
-    driver = create_chromedriver(False)
+    driver = create_chromedriver(True)
     #driver = create_chromedriver()
     print(driver.capabilities['version'])
     # driver.get("https://www.foxnews.com/")
