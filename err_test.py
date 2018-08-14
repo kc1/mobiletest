@@ -74,8 +74,8 @@ def create_chromedriver(ua=False):
 
 
         # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,desired_capabilities=capabilities, options=options)
-    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
-    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=options)
+    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
+    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,goog:chromeOptions=options )
 
 
     # return webdriver.Remote(executable_path=CHROMEDRIVER_PATH, command_executor='http://127.0.0.1:4444/wd/hub',
@@ -86,7 +86,7 @@ def create_chromedriver(ua=False):
 
 
 def some_long_calculation():
-    driver = create_chromedriver('test')
+    driver = create_chromedriver(True)
     # driver = create_chromedriver()
     print(driver.capabilities['version'])
     print(driver.capabilities['version'])
