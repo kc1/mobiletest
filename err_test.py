@@ -5,10 +5,6 @@ import os, io
 import time
 from flask import Flask
 from flask import render_template, redirect, request, url_for, session, send_file, Response
-# from glob import glob
-# from random import shuffle
-# import xml.etree.ElementTree as ET
-# import spintax
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -31,72 +27,40 @@ def create_chromedriver(ua=False):
         # CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
         CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
         GOOGLE_CHROME_SHIM = os.getenv('$GOOGLE_CHROME_SHIM') or 'no path found'
-        options.binary_location = '/app/.apt/usr/bin/google-chrome-stable'
-        # options.binary_location = '/app/.apt/usr/bin/google-chrome'/
-        # options.binary_location = '/app/.apt/opt/google/chrome/chrome'
-        # options.binary_location = '/app/.apt/opt/google/chrome/'
-        # options.binary_location = GOOGLE_CHROME_SHIM
+        # options.binary_location = '/app/.apt/usr/bin/google-chrome-stable'
+        options.binary_location = '/app/.apt/usr/bin/google-chrome'
 
         print(GOOGLE_CHROME_SHIM)
         print(GOOGLE_CHROME_SHIM)
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
+        #options.add_argument("--headless")
+        #options.add_argument("--disable-gpu")
 
-        # options.add_argument("--start-maximized")
-        # options.add_argument("--disable-infobars")
-        # options.add_argument("--disable-extensions")
-        # options.add_argument("--no-sandbox")
-        # options.add_argument("--disable-dev-shm-usage")
 
     if ua:
-        print('ua block33')
         # ua_string = '--user-agent=' + '"' + ua + '"'
         # ua_string = 'user-agent=' + ua
         # options.add_argument(ua_string)
         # mobile_emulation = {"deviceName": "Nexus 7"}
-        mobile_emulation =  {"deviceName": "iPad Mini"}
-        # mobile_emulation =  {"deviceName": "LG Optimus One"}
-        # mobile_emulation =  {"deviceName": "LG Optimus One", "width": 213, "height": 320, "deviceScaleFactor": 1.5, "userAgent": "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; LG-MS690 Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", "touch": "true", "mobile": "true"}
+        #mobile_emulation =  {"deviceName": "Nexus 5"}
+        #mobile_emulation =  {"deviceName": "LG Optimus One", "width": 213, "height": 320, "deviceScaleFactor": 1.5, "userAgent": "Mozilla/5.0 (Linux; U; Android 2.2.1; en-us; LG-MS690 Build/FRG83) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1", "touch": "true", "mobile": "true"}
+        mobile_emulation = {"deviceMetrics": { "width": 360, "height": 640, "pixelRatio": 3.0 }, "pixelRatio":3.0, "mobileEmulationEnabled":True, "userAgent":"Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) " +
+                                                                                                                                                              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Mobile Safari/537.36"}
         options.add_experimental_option("mobileEmulation", mobile_emulation)
 
-        # options = webdriver.ChromeOptions()
-
-        capabilities = options.to_capabilities()
-
-        # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub', desired_capabilities=capabilities)
-
-        # from selenium import webdriver
-        # mobile_emulation = {"deviceName": "Nexus 5"}
-        # chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
-        # driver = webdriver.Remote(executable_path=CHROMEDRIVER_PATH,command_executor='http://127.0.0.1:4444/wd/hub',
-        #                           desired_capabilities=options.to_capabilities())
-
-
-        # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,desired_capabilities=capabilities, options=options)
-    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options)
-    # return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,goog:chromeOptions=options )
-
-
-    # return webdriver.Remote(executable_path=CHROMEDRIVER_PATH, command_executor='http://127.0.0.1:4444/wd/hub',
-    #                       desired_capabilities=options.to_capabilities())
-
-
-
+    return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=options, service_args=["--verbose", "--log-path=%s/chromedriver.log" %(basedir)])
 
 
 def some_long_calculation():
-    driver = create_chromedriver(True)
-    # driver = create_chromedriver()
+    driver = create_chromedriver(False)
+    #driver = create_chromedriver()
     print(driver.capabilities['version'])
-    print(driver.capabilities['version'])
-
-    driver.get("https://www.yahoo.com/")
+    # driver.get("https://www.foxnews.com/")
     # driver.get("https://www.yahoo.com/news/")
+    driver.get("https://boston.craigslist.org/")
     # driver.find_element_by_id("yui_3_18_0_4_1519680410096_1347").click()
     # driver.find_element_by_id("yui_3_18_0_4_1519680410096_1347").click()
 
-    print(1)
+    # print(1)
     # yield "<br/>"
 
     # https: // www.yahoo.com / news /

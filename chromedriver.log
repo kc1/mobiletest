@@ -1,0 +1,917 @@
+[1534281771.507][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1534281771.528][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1534281771.533][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1534281771.580][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\dnir\AppData\Local\Temp\scoped_dir10164_15657\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12440 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dnir\AppData\Local\Temp\scoped_dir10164_6671" data:,
+[1534281771.589][DEBUG]: DevTools request: http://localhost:12440/json/version
+[1534281772.194][DEBUG]: DevTools response: {
+   "Browser": "Chrome/68.0.3440.106",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+   "V8-Version": "6.8.275.26",
+   "WebKit-Version": "537.36 (@1c32c539ce0065a41cb79da7bfcd2c71af1afe62)",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/browser/0d7e41aa-7489-4e69-9643-16828b0b1f9d"
+}
+
+[1534281772.255][DEBUG]: DevTools request: http://localhost:12440/json
+[1534281772.263][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09",
+   "id": "3552832FEAE11FD31ABAFEABA4D53A09",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B",
+   "id": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B"
+} ]
+
+[1534281772.264][DEBUG]: DevTools request: http://localhost:12440/json
+[1534281772.268][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09",
+   "id": "3552832FEAE11FD31ABAFEABA4D53A09",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B",
+   "id": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B"
+} ]
+
+[1534281772.279][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1534281773.280][DEBUG]: DEVTOOLS COMMAND Log.enable (id=1) {
+
+}
+[1534281773.280][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=2) {
+
+}
+[1534281773.280][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=3) {
+
+}
+[1534281773.281][DEBUG]: DEVTOOLS COMMAND Page.enable (id=4) {
+
+}
+[1534281773.281][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+
+}
+[1534281773.281][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=1) {
+
+}
+[1534281773.281][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=2) {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1534281773.292][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "isDefault": true
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1534281773.292][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=3) {
+
+}
+[1534281773.292][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=4) {
+
+}
+[1534281773.292][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+
+}
+[1534281773.292][DEBUG]: DEVTOOLS COMMAND Page.enable (id=6) {
+
+}
+[1534281773.293][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=6) {
+
+}
+[1534281773.293][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=7) {
+
+}
+[1534281773.293][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=7) {
+
+}
+[1534281773.293][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=8) {
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1534281773.298][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=8) {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1534281773.298][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)",
+      "userDataDir": "C:\\Users\\dnir\\AppData\\Local\\Temp\\scoped_dir10164_6671"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1534281773.300][INFO]: COMMAND Navigate {
+   "sessionId": "27cad4ebb4a6dc536e45fa6d5c7061dd",
+   "url": "https://boston.craigslist.org/"
+}
+[1534281773.300][INFO]: Waiting for pending navigations...
+[1534281773.300][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=9) {
+   "expression": "1"
+}
+[1534281773.301][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=9) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.301][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=10) {
+
+}
+[1534281773.302][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=10) {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1534281773.302][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
+   "expression": "var isLoaded = document.readyState == 'complete' ||    document.readyState == 'interactive';if (isLoaded) {  var frame = document.createElement('iframe');  frame.name = 'chromedriver dummy frame'; ..."
+}
+[1534281773.304][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 1,
+   "nodeId": 8
+}
+[1534281773.304][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+   "frameId": "FB57E3EFBA415C10FFC2A26B99572323",
+   "parentFrameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 240,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "20",
+         "url": ""
+      } ]
+   }
+}
+[1534281773.308][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "FB57E3EFBA415C10FFC2A26B99572323"
+}
+[1534281773.308][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=12) {
+   "expression": "document.readyState"
+}
+[1534281773.308][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "FB57E3EFBA415C10FFC2A26B99572323",
+      "loaderId": "EFC76FC30CE2870396F55C53174D8816",
+      "mimeType": "text/html",
+      "name": "chromedriver dummy frame",
+      "parentId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   }
+}
+[1534281773.308][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "FB57E3EFBA415C10FFC2A26B99572323",
+         "isDefault": true
+      },
+      "id": 2,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1534281773.308][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "FB57E3EFBA415C10FFC2A26B99572323"
+}
+[1534281773.308][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.316][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=12) {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1534281773.316][INFO]: Done waiting for pending navigations. Status: ok
+[1534281773.316][DEBUG]: DEVTOOLS COMMAND Page.navigate (id=13) {
+   "url": "https://boston.craigslist.org/"
+}
+[1534281773.329][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 0,
+   "nodeId": 8
+}
+[1534281773.329][DEBUG]: DEVTOOLS EVENT Runtime.executionContextDestroyed {
+   "executionContextId": 2
+}
+[1534281773.329][DEBUG]: DEVTOOLS EVENT Page.frameDetached {
+   "frameId": "FB57E3EFBA415C10FFC2A26B99572323"
+}
+[1534281773.468][DEBUG]: DEVTOOLS RESPONSE Page.navigate (id=13) {
+   "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "loaderId": "43AE8269CD77E2D8DF53B47218DC9E39"
+}
+[1534281773.468][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=14) {
+   "expression": "document.URL"
+}
+[1534281773.470][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+
+}
+[1534281773.471][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B"
+}
+[1534281773.471][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=15) {
+   "expression": "document.readyState"
+}
+[1534281773.515][DEBUG]: DEVTOOLS EVENT Runtime.executionContextsCleared {
+
+}
+[1534281773.515][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "0CA5CE0482CB870DC59F09A012C6CD0B",
+      "loaderId": "43AE8269CD77E2D8DF53B47218DC9E39",
+      "mimeType": "text/html",
+      "securityOrigin": "https://boston.craigslist.org",
+      "url": "https://boston.craigslist.org/"
+   }
+}
+[1534281773.515][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "isDefault": true
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://boston.craigslist.org"
+   }
+}
+[1534281773.515][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[1534281773.516][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=16) {
+
+}
+[1534281773.516][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=14) {
+   "result": {
+      "type": "string",
+      "value": "https://boston.craigslist.org/"
+   }
+}
+[1534281773.516][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=15) {
+   "result": {
+      "type": "string",
+      "value": "loading"
+   }
+}
+[1534281773.517][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=16) {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://boston.craigslist.org/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 2,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 1,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "class", "no-js" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 17,
+            "localName": "head",
+            "nodeId": 4,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         }, {
+            "attributes": [ "class", "homepage en" ],
+            "backendNodeId": 5,
+            "childNodeCount": 1,
+            "localName": "body",
+            "nodeId": 5,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 3
+         } ],
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "localName": "html",
+         "nodeId": 3,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "documentURL": "https://boston.craigslist.org/",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1534281773.517][INFO]: Waiting for pending navigations...
+[1534281773.517][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=17) {
+   "expression": "1"
+}
+[1534281773.518][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=17) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.656][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "class",
+   "nodeId": 3,
+   "value": "js"
+}
+[1534281773.656][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "class",
+   "nodeId": 5,
+   "value": "homepage en desktop"
+}
+[1534281773.656][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 2,
+   "nodeId": 5
+}
+[1534281773.656][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=18) {
+   "expression": "1"
+}
+[1534281773.769][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 3,
+   "nodeId": 5
+}
+[1534281773.769][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 4,
+   "nodeId": 5
+}
+[1534281773.769][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 5,
+   "nodeId": 5
+}
+[1534281773.772][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=18) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.787][DEBUG]: DEVTOOLS EVENT Page.frameResized {
+
+}
+[1534281773.787][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=19) {
+   "expression": "1"
+}
+[1534281773.788][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=19) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeInserted {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 6,
+      "childNodeCount": 0,
+      "localName": "div",
+      "nodeId": 6,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 3,
+   "previousNodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "id",
+   "nodeId": 6,
+   "value": "sizzle1534281773809"
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeRemoved {
+   "nodeId": 6,
+   "parentNodeId": 3
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeInserted {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 7,
+      "childNodeCount": 0,
+      "localName": "div",
+      "nodeId": 7,
+      "nodeName": "DIV",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 3,
+   "previousNodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 1,
+   "nodeId": 7
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 2,
+   "nodeId": 7
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeRemoved {
+   "nodeId": 7,
+   "parentNodeId": 3
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 6,
+   "nodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 5,
+   "nodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.attributeModified {
+   "name": "class",
+   "nodeId": 3,
+   "value": "js canvas draggable fileAPI geolocation hashChange matchMedia picture pushState placeholder no-touchCapable transitions localStorage"
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 6,
+   "nodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 7,
+   "nodeId": 5
+}
+[1534281773.873][DEBUG]: DEVTOOLS EVENT Page.frameAttached {
+   "frameId": "99B512E8DD90EEA1EC245D7ED0710A52",
+   "parentFrameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 22,
+         "functionName": "",
+         "lineNumber": 847,
+         "scriptId": "25",
+         "url": "https://boston.craigslist.org/"
+      } ]
+   }
+}
+[1534281773.873][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=20) {
+   "expression": "1"
+}
+[1534281773.907][DEBUG]: DEVTOOLS EVENT Page.frameStartedLoading {
+   "frameId": "99B512E8DD90EEA1EC245D7ED0710A52"
+}
+[1534281773.907][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=21) {
+   "expression": "document.readyState"
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 8,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 9,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 10,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 11,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 12,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 13,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.childNodeCountUpdated {
+   "childNodeCount": 12,
+   "nodeId": 5
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT DOM.documentUpdated {
+
+}
+[1534281773.908][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=22) {
+
+}
+[1534281773.908][DEBUG]: DEVTOOLS EVENT Page.domContentEventFired {
+   "timestamp": 34823.708615
+}
+[1534281773.911][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=20) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.912][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=21) {
+   "result": {
+      "type": "string",
+      "value": "interactive"
+   }
+}
+[1534281773.912][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=22) {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://boston.craigslist.org/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 9,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 8,
+         "publicId": "",
+         "systemId": ""
+      }, {
+         "attributes": [ "class", "js canvas draggable fileAPI geolocation hashChange matchMedia picture pushState placeholder no-touchCapable transitions localStorage" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 17,
+            "localName": "head",
+            "nodeId": 11,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         }, {
+            "attributes": [ "class", "homepage en desktop" ],
+            "backendNodeId": 5,
+            "childNodeCount": 12,
+            "localName": "body",
+            "nodeId": 12,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 10
+         } ],
+         "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+         "localName": "html",
+         "nodeId": 10,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 8
+      } ],
+      "documentURL": "https://boston.craigslist.org/",
+      "localName": "",
+      "nodeId": 8,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1534281773.921][DEBUG]: DEVTOOLS EVENT Page.frameNavigated {
+   "frame": {
+      "id": "99B512E8DD90EEA1EC245D7ED0710A52",
+      "loaderId": "D7AC223A5945675B609414C8499A3C3A",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "0CA5CE0482CB870DC59F09A012C6CD0B",
+      "securityOrigin": "https://www.craigslist.org",
+      "url": "https://www.craigslist.org/static/localstorage.html?v=51a29e41f8e978141e4085ed4a77d170"
+   }
+}
+[1534281773.921][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+   "context": {
+      "auxData": {
+         "frameId": "99B512E8DD90EEA1EC245D7ED0710A52",
+         "isDefault": true
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://www.craigslist.org"
+   }
+}
+[1534281773.921][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=23) {
+   "expression": "1"
+}
+[1534281773.928][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "99B512E8DD90EEA1EC245D7ED0710A52"
+}
+[1534281773.928][DEBUG]: DEVTOOLS EVENT Page.loadEventFired {
+   "timestamp": 34823.728027
+}
+[1534281773.928][DEBUG]: DEVTOOLS EVENT Page.frameStoppedLoading {
+   "frameId": "0CA5CE0482CB870DC59F09A012C6CD0B"
+}
+[1534281773.928][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=23) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.928][INFO]: Done waiting for pending navigations. Status: ok
+[1534281773.928][INFO]: RESPONSE Navigate
+[1534281773.930][INFO]: COMMAND Screenshot {
+
+}
+[1534281773.930][INFO]: Waiting for pending navigations...
+[1534281773.930][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=24) {
+   "expression": "1"
+}
+[1534281773.931][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=24) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281773.931][INFO]: Done waiting for pending navigations. Status: ok
+[1534281773.931][DEBUG]: DevTools request: http://localhost:12440/json/activate/0CA5CE0482CB870DC59F09A012C6CD0B
+[1534281773.932][DEBUG]: DevTools response: Target activated
+[1534281773.932][DEBUG]: DEVTOOLS COMMAND Page.captureScreenshot (id=25) {
+
+}
+[1534281774.215][DEBUG]: DEVTOOLS RESPONSE Page.captureScreenshot (id=25) {
+   "data": "iVBORw0KGgoAAAANSUhEUgAAA6EAAAPrCAYAAACpmIogAAAgAElEQVR4nOzdf3hU9b3o+/eamYSAQUitQCQ8EvApPAroBYQMXvUaCvS6tyhJk32YFLnQH7ctp1oRObSEbHd+1JxIqdqj7WmrHMRMzs40oLjrLljSgx6TgMK2YH1gP0DgJkiC2yYkEUIyM+v+sdaaW..."
+}
+[1534281774.216][INFO]: Waiting for pending navigations...
+[1534281774.216][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=26) {
+   "expression": "1"
+}
+[1534281774.217][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=26) {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1534281774.217][INFO]: Done waiting for pending navigations. Status: ok
+[1534281774.217][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAA6EAAAPrCAYAAACpmIogAAAgAElEQVR4nOzdf3hU9b3o+/eamYSAQUitQCQ8EvApPAroBYQMXvUaCvS6tyhJk32YFLnQH7ctp1oRObSEbHd+1JxIqdqj7WmrHMRMzs40oLjrLljSgx6TgMK2YH1gP0DgJkiC2yYkEUIyM+v+sdaaW..."
+[1534281774.228][INFO]: COMMAND CloseWindow {
+
+}
+[1534281774.228][DEBUG]: DevTools request: http://localhost:12440/json
+[1534281774.229][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09",
+   "id": "3552832FEAE11FD31ABAFEABA4D53A09",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B",
+   "faviconUrl": "https://boston.craigslist.org/favicon.ico",
+   "id": "0CA5CE0482CB870DC59F09A012C6CD0B",
+   "title": "craigslist: boston jobs, apartments, for sale, services, community, and events",
+   "type": "page",
+   "url": "https://boston.craigslist.org/",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/0CA5CE0482CB870DC59F09A012C6CD0B"
+} ]
+
+[1534281774.229][DEBUG]: DevTools request: http://localhost:12440/json/close/0CA5CE0482CB870DC59F09A012C6CD0B
+[1534281774.230][DEBUG]: DevTools response: Target is closing
+[1534281774.230][DEBUG]: DevTools request: http://localhost:12440/json
+[1534281774.245][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09",
+   "id": "3552832FEAE11FD31ABAFEABA4D53A09",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09"
+} ]
+
+[1534281774.245][DEBUG]: DevTools request: http://localhost:12440/json
+[1534281774.255][DEBUG]: DevTools response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09",
+   "id": "3552832FEAE11FD31ABAFEABA4D53A09",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:12440/devtools/page/3552832FEAE11FD31ABAFEABA4D53A09"
+} ]
+
+[1534281774.395][INFO]: RESPONSE CloseWindow
+[1534281774.395][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1534281774.397][DEBUG]: Log type 'browser' lost 0 entries on destruction
