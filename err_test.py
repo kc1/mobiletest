@@ -32,7 +32,7 @@ def create_chromedriver(ua=False):
 
         print(GOOGLE_CHROME_SHIM)
         print(GOOGLE_CHROME_SHIM)
-        #options.add_argument("--headless")
+        options.add_argument("--headless")
         #options.add_argument("--disable-gpu")
 
 
